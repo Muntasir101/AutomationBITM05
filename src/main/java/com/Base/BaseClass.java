@@ -21,6 +21,9 @@ public class BaseClass {
     public static void close_browser(){
         driver.close();
     }
+    public static void quit_browser(){
+        driver.quit();
+    }
 
     public static String generate_Random_string(){
         String SALTCHAR="abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGH";

@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Login extends BaseClass {
-    public static WebDriver driver;
+   // public static WebDriver driver;
 
     public static void main(String[] args) {
         chrome_launch();
