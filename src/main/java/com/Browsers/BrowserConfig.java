@@ -10,13 +10,14 @@ public class BrowserConfig {
 
     public static void main(String[] args) {
         chrome_launch();
-        browserMaximumSize(); //Max Width : 1296 Max Height: 688
-        browser_close();
+        browserMaximumSize();
+        open_website("https://google.com");//Max Width : 1296 Max Height: 688
+       // browser_close();
        // browser_quit();
         firefox_launch();
         browserMaximumSize();  //Max Width : 1295 Max Height: 687
-     //   open_website("https://google.com");
-        browser_close();
+        open_website("https://demo.opencart.com");
+      //  browser_close();
      //   browser_quit();
 
     }
